@@ -1,0 +1,2 @@
+
+1.	Nombres de ramas descriptivos: Utiliza nombres de ramas que describan claramente el propósito de la rama, como feature/login-authentication o bugfix/login-error.
