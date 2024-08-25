@@ -2,7 +2,7 @@ Principales convenciones de git utilizadas actualmente en el desarrollo de softw
 
 1.	Nombres de ramas descriptivos:
 
-2.	
+2.	Commits pequeños y enfocados:
 
 3.	
 
