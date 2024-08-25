@@ -4,7 +4,7 @@ Principales convenciones de git utilizadas actualmente en el desarrollo de softw
 
 2.	Commits pequeños y enfocados:
 
-3.	
+3.	Mensajes de commit descriptivos:
 
 4.	
 
