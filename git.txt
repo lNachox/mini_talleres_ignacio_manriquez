@@ -1,0 +1,11 @@
+Principales convenciones de git utilizadas actualmente en el desarrollo de software.
+
+1.	Nombres de ramas descriptivos:
+
+2.	
+
+3.	
+
+4.	
+
+5.	
