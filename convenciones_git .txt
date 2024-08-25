@@ -2,3 +2,4 @@
 1.	Nombres de ramas descriptivos: Utiliza nombres de ramas que describan claramente el propósito de la rama, como feature/login-authentication o bugfix/login-error.
 2.	Commits pequeños y enfocados: Realiza commits que aborden un solo problema o cambio, manteniéndolos pequeños y específicos.
 3.	Mensajes de commit descriptivos: Escribe mensajes de commit que reflejen con precisión los cambios realizados, como Añadir autenticación de usuario.
+4.	Uso de ramas principales y de desarrollo: Mantiene una rama principal (main o master) para el código de producción y una rama de desarrollo (develop o dev) para integrar nuevas características antes de pasarlas a la principal.
