@@ -6,6 +6,6 @@ Principales convenciones de git utilizadas actualmente en el desarrollo de softw
 
 3.	Mensajes de commit descriptivos:
 
-4.	
+4.	Uso de ramas principales y de desarrollo:
 
 5.	
