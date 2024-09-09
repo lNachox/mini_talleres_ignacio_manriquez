@@ -1,0 +1,55 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Encabezado y banner */
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner {
+    /* Estilo del banner */
+    background-image: url('ruta-de-la-imagen.jpg');
+    background-size: cover;
+    color: white;
+    padding: 50px;
+}
+
+.banner h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Navegación */
+nav {
+    /* Estilos para la navegación */
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 20px;
+}
+
+/* Contenido del artículo */
+article {
+    /* Estilos para el contenido del artículo */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Redes sociales */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer a {
+    margin-right: 10px;
+}
