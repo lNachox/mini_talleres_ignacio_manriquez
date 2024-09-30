@@ -10,7 +10,7 @@ function moveZerosToEnd(arr) {
       if (arr[i] === 0) {
         zeroCount++; // Cuenta el número de ceros
       } else {
-        noZeroArr.push(arr[i]); // Empuja los elementos distintos de cero a la nueva matriz
+        noZeroArr.push(arr[i]); // Mueve los elementos distintos de cero a la nueva matriz
       }
     }
   
@@ -25,4 +25,4 @@ function moveZerosToEnd(arr) {
   
   // Ejemplo:
   let arr = [1, 0, 2, 0, 3, 4, 0, 5];
-  console.log(moveZerosToEnd(arr)); // Salida: [1, 2, 3, 4, 5, 0, 0, 0]
+  console.log(moveZerosToEnd(arr)); // Ejemplo de salida: [1, 2, 3, 4, 5, 0, 0, 0]

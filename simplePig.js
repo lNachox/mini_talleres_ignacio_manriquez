@@ -22,4 +22,5 @@ function pigLatinConverter(sentence) {
   // Ejemplo:
   let sentence = "Hello, world!";
   console.log(pigLatinConverter(sentence)); 
-  // Salida: "elloHay, orldway!"
+  // Ejemplo de salida: "elloHay, orldway!"
+  
