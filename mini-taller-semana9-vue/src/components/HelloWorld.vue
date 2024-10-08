@@ -11,12 +11,12 @@
         min="1"
         max="7"
       />
-      <label :for="'percentage' + index"> Porcentaje (%) {{ index + 1 }}:</label>
+      <label :for="'percentage' + index">Porcentaje (%) {{ index + 1 }}:</label>
       <input
         type="number"
         :id="'percentage' + index"
         v-model.number="nota.percentage"
-        @input="validarPeso"
+        @input="validarPorcentaje"
         min="0"
         max="100"
       />
@@ -31,7 +31,7 @@
 export default {
   data() {
     return {
-      notas: [{ value: 1, peso: 100 }],
+      notas: [{ value: 1, percentage: 100 }],
       promedio: 0,
     };
   },
@@ -44,16 +44,16 @@ export default {
       }
       this.calcularPromedio();
     },
-    validarPeso() {
-      const totalPeso = this.notas.reduce((acc, nota) => acc + (nota.peso || 0), 0);
-      if (totalPeso > 100) {
-        alert('La suma de los pesos no puede exceder el 100%.');
-        this.notas.forEach(nota => nota.peso = 0); // Reiniciar pesos si excede
+    validarPorcentaje() {
+      const totalPorcentaje = this.notas.reduce((acc, nota) => acc + (nota.percentage || 0), 0);
+      if (totalPorcentaje > 100) {
+        alert('La suma de los porcentajes no puede exceder el 100%.');
+        this.notas.forEach(nota => nota.percentage = 0); // Reiniciar porcentajes si excede
       }
       this.calcularPromedio();
     },
     agregarNota() {
-      this.notas.push({ value: 1, peso: 0 });
+      this.notas.push({ value: 1, percentage: 0 });
     },
     eliminarNota(index) {
       this.notas.splice(index, 1);
@@ -61,11 +61,12 @@ export default {
     },
     calcularPromedio() {
       const sumaNotas = this.notas.reduce((acum, nota) => {
-        return acum + (nota.value * (nota.peso / 100));
+        return acum + (nota.value * (nota.percentage / 100));
       }, 0);
-      const totalPeso = this.notas.reduce((acc, nota) => acc + (nota.peso || 0), 0);
-      this.promedio = totalPeso ? sumaNotas / totalPeso : 0;
-    },
+        
+      const totalPorcentaje = this.notas.reduce((acc, nota) => acc + (nota.percentage || 0), 0);
+      this.promedio = totalPorcentaje ? sumaNotas : 0;
+    }
   },
 };
 </script>
