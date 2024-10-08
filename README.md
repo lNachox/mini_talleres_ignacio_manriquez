@@ -3,7 +3,7 @@
 
 
 
-anotaciones:
+Anotaciones para README:
 > [!NOTE]
 > Aqui tienes una nota!
 
@@ -14,8 +14,8 @@ anotaciones:
 > Importante!!
  
 > [!WARNING]
-> Precaución!!
+> Advertencia!!
  
 > [!CAUTION]
-> Cuidado!!
+> Precaución!!
  
