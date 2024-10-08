@@ -4,8 +4,19 @@
 
 
 anotaciones:
-[!NOTE]
-[!TIP]
-[!IMPORTANT]
-[!WARNING]
-[!CAUTION]
+> [!NOTE]
+> Aqui tienes una nota!
+>
+> [!TIP]
+> Aqui tienes un consejo!
+> 
+> [!IMPORTANT]
+> Importante!!
+
+> 
+> [!WARNING]
+> Precaución!!
+> 
+> [!CAUTION]
+> Cuidado!!
+> 
