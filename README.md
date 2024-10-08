@@ -6,17 +6,16 @@
 anotaciones:
 > [!NOTE]
 > Aqui tienes una nota!
->
+
 > [!TIP]
 > Aqui tienes un consejo!
-> 
+ 
 > [!IMPORTANT]
 > Importante!!
-
-> 
+ 
 > [!WARNING]
 > Precaución!!
-> 
+ 
 > [!CAUTION]
 > Cuidado!!
-> 
+ 
