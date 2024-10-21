@@ -1,6 +1,6 @@
 <template>
   <div class="calculator">
-    <h1>Calculadora de Promedios</h1>
+    <h1>Inicio</h1>
     <div v-for="(nota, index) in notas" :key="index">
       <label :for="'nota' + index">Nota {{ index + 1 }}:</label>
       <input
