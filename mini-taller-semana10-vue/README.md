@@ -1,4 +1,4 @@
-# mini-taller-semana9-vue
+# mini-taller-semana10-vue
 
 ## Project setup
 ```

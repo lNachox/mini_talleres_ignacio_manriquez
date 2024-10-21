@@ -1,6 +1,6 @@
 <template>
     <div>
-      <h1>Página Principal</h1>
+      <h1>Rutas</h1>
       <div>
         <button @click="goToRoute('/route1')">Ir a Ruta 1</button>
         <button @click="goToRoute('/route2')">Ir a Ruta 2</button>
