@@ -1,5 +1,5 @@
-# ims_mini_taller_semana_10
-Taller de Calculadora de promedios hecho en: Vue 3 y Vue router.
+# ims_mini_taller_semana_13
+Taller de Spring Boot, creación de 3 entidades, cada una con sus atributos y relaciones.
 
 > [!NOTE]
-> Seguir el README.md interno para inicializar el proyecto.
+> Para inicializar el proyecto usar el comando "./mvnw spring-boot:run" en la terminal o F5.
